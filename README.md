@@ -2,7 +2,7 @@
 
 A LoRA fine-tuned PaliGemma-3B model that generates radiology-style findings text from chest X-ray images, trained on the IU-Xray (Indiana University Chest X-rays) dataset.
 
-**⚠️ This is a research/educational project, not a diagnostic tool.** See [Limitations](#limitations) below — the model has known, honestly-evaluated weaknesses, including a bias toward generic "normal" findings and occasional fabricated details.
+**⚠️ This is a research/educational project, not a diagnostic tool.** See [Limitations](#limitations) below — the model has known, honestly-evaluated weaknesses.
 
 ## Demo
 
