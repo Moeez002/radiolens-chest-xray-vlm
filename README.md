@@ -81,8 +81,6 @@ The model performs comparably on abnormal/pathology cases as on normal ones by t
 
 ## Limitations
 
-- **Bias toward generic "normal" phrasing.** Qualitative review found the model sometimes confidently asserts the absence of findings that were actually present (e.g., predicting "no effusion" when the real report noted mild costophrenic blunting) — likely from the ~40% of training reports being boilerplate-normal.
-- **Occasional fabrication.** In one case, the model invented a specific finding ("a 3.5mm calcified nodule") not present in the real report, and in another, verbatim-reproduced a different patient's report — a memorization artifact more visible in the higher-rank (r=16) experiment.
 - **General-domain evaluation metric.** BERTScore here uses a general-English embedding model, not a clinical-domain one, so semantic similarity scores may not fully capture fine-grained clinical correctness.
 - **2D-only, single dataset, single institution.** No external validation on other X-ray datasets or imaging equipment.
 - **Not clinically validated.** Never intended for, and should never be used for, real diagnostic purposes.
